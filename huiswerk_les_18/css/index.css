@@ -1,0 +1,86 @@
+[class*="col-"] {
+    width:100%;
+    float:left;
+    padding:10px;
+    margin:2px;
+    border:2px solid black;
+}
+@media only screen and (min-width:600px) {
+    [class*="col-"] {
+        border: 2px dashed #ffffff;
+    }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+    background-color: #ffffff;
+}
+@media only screen and (min-width:600px){
+    body{
+        background-color: #000000;
+        color: #ffffff;
+    }
+}
+#head{
+    border:2px solid #DA121A;
+    background-image: url(afbeelding/vieuw.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:fit-content;
+    text-align:center;
+    color: #078930;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Tilt Neon', cursive;
+}
+@media only screen and (min-width:600px){
+    #head{
+        border:2px solid #078930;
+    }
+}
+#links{
+    min-width:fit-content;
+    max-width: auto;
+    height: auto;
+    border:3px dashed #000000;
+    margin:2px 3px;
+    padding:3px 1px;
+}
+@media only screen and (min-width:600px){
+    #links{
+        border:2px solid #ffffff;
+        margin:4px 5px;
+        padding:5px 3px;
+    }
+}
+#rechts{
+    border:3px dotted #ffffff;
+    background-color: #000000;
+    color:snow;
+}
+@media only screen and (min-width:600px){
+    #rechts{
+        border:2px dashed #000000;
+        background-color: #ffffff;
+        color:black;
+    }
+}
+#foto1{
+    float:right;
+    width:10%;
+    height: 15%;
+}
+#foto2{
+    float:right;
+    width: 10%;
+    height: 20%;
+}
